@@ -39,8 +39,30 @@ body{
     .watch{
         font-size: 10px;
         color: white;
+        width: 40%;
     }
 }
+@media screen and (min-width: 200px) and (max-width: 400px) {
+   .heading{
+    font-size: 15px;
+   } 
+   .watch{
+    width: 80%;
+   }
+}
+@media screen and (min-width: 401px) and (max-width: 700px) {
+    .watch{
+        color: white;
+        width: 40%;
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 1180px) {
+    .watch{
+        color: white;
+        width: 40%;
+    }
+}
+
 
 /* -----------------------top-section-end----------------------- */
 
